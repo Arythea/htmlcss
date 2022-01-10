@@ -20,14 +20,17 @@ footer div {background-color: #deb14a;}
 .flex2 {flex-grow: 2 !important;}
 .flex3 {flex-grow: 3 !important;}
 .flex4 {flex-grow: 4 !important;}
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1279px) {
   body{padding: 0 20px;}
   section {background-color: yellow; flex-flow: column;}
   article div {width: 45%;}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .topbar {flex-direction: column;}
     section {background-color: #fae355;}
     article div {background-color: #6e949b; width: 100%;}
     article div:last-child {background-color: #afdbcc;}
+    nav {margin-top: 20px;}
+    aside {background-color: #fc7b54;}
+    aside div {background-color: #fdb36b;}
 }

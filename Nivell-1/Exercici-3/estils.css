@@ -20,6 +20,7 @@ footer div {background-color: #deb14a;}
 .flex2 {flex-grow: 2 !important;}
 .flex3 {flex-grow: 3 !important;}
 .flex4 {flex-grow: 4 !important;}
+
 @media only screen and (max-width: 1279px) {
   body{padding: 0 20px;}
   section {background-color: yellow; flex-flow: column;}
